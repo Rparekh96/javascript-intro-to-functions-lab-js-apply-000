@@ -1,26 +1,26 @@
 
-function shout(message){
-  return message.toUpperCase();
+function shout(string){
+  return string.toUpperCase();
 }
 
-function whisper(message){
-  return message.toLowerCase();
+function whisper(string){
+  return string.toLowerCase();
 }
 
-function logShout(message){
-  console.log(message.toUpperCase());
+function logShout(string){
+  console.log(string.toUpperCase());
 }
 
-function logWhisper(message){
-  console.log(message.toLowerCase());
+function logWhisper(string){
+  console.log(string.toLowerCase());
 }
 
-function sayHiToGrandma(message){
-  if(message===message.toLowerCase());
+function sayHiToGrandma(string){
+  if(string===string.toLowerCase());
     return ("I can't hear you");
   }
   
-  if (message===message.toUpperCase());
+  if (string===string.toUpperCase());
     return "YES INDEED!";
   } else {
     return "I love you,grandma.";
