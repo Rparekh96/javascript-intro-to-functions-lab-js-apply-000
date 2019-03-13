@@ -4,18 +4,21 @@ function shout (String){
 }
 
 function whisper (String){
-return String.toLowerCase();
+  return String.toLowerCase();
 }
+
 function logShout(String){
-console.log(String.toUpperCase());
+  console.log(String.toUpperCase());
 }
-function logWhisper (String){
-console.log(String.toLowerCase());
+
+function logWhisper(String){
+  console.log(String.toLowerCase());
 }
+
 function sayHiToGrandma(String){
-if( String===toLowerCase());
-return ("I can't hear you");
-}
+  if( String===toLowerCase());
+  return ("I can't hear you");
+  }
 if (String===String.toUpperCase());
 return ("YES INDEED!");
 }
